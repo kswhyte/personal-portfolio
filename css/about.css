@@ -1,0 +1,459 @@
+/*________________________________________*/
+/*about*/
+
+.container {
+  height: 575px;
+  display: block;
+  background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tagline {
+  z-index: 1;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  display: flex;
+  font-size: 60px;
+  color: white;
+  line-height: 1.25;
+}
+
+/*________________________________________*/
+/*Skills*/
+
+.skills {
+  background-color: #1A1A1A;
+  color: #eeeeee;
+  line-height: 1.5;
+  text-align: center;
+  padding: 60px;
+  margin: auto;
+}
+
+.skills h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #783568;
+  font-size: 250%;
+}
+
+.skills h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
+  margin: auto;
+  padding: 30px 30px 20px 30px;
+  /*line-height: 2.5;*/
+  color: yellow;
+}
+
+h3.languages {
+  padding: 30px 30px 0 30px;
+}
+
+.skills p {
+  margin: auto;
+  padding: 0px 30px 30px 30px;
+}
+
+img.cogwheel, img.bee-hive {
+  padding: 0px 30px 30px 30px;
+  margin: auto;
+  display: block;
+}
+
+img.skill-sword {
+  padding: 30px;
+  margin: auto;
+  display: block;
+  width: 110px;
+  height: 110px;
+  /*width: 160px;
+  height: 30px;*/
+}
+
+img.cogwheel {
+  width: 110px;
+  height: 110px;
+}
+
+img.bee-hive {
+  width: 110px;
+  height: 110px;
+}
+
+/*____________________*/
+/*Intention*/
+
+.intention {
+  color: #eeeeee;
+  line-height: 1.5;
+  text-align: center;
+  padding: 60px;
+  margin: auto;
+  background-color: #0188cb;
+}
+
+.intention h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1A1A1A;
+  font-size: 250%;
+}
+
+.intention h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
+  margin: auto;
+  padding: 30px;
+  line-height: 2.5;
+  color: yellow;
+}
+
+.intention p {
+  margin: auto;
+  padding: 0px 30px 30px 30px;
+  max-width: 770px;
+  display: block;
+}
+
+img.ladder {
+  width: 120px;
+  height: 120px;
+  padding: 30px auto;
+  margin: 10px auto 0 auto;
+  left: 0;
+  position: center;
+  display: block;
+}
+
+.focus h3 {
+  font-family: 'Dosis', sans-serif;
+  margin: auto;
+  padding: 30px;
+  line-height: 2.5;
+  color: yellow;
+}
+
+img.eye {
+  width: 120px;
+  height: 80px;
+  padding:  0px 30px 30px 30px;
+  margin: auto;
+  left: 0
+  position: center;
+  display: block;
+}
+
+/*___________________________________*/
+/*mini-bio*/
+
+.mini-bio {
+  font-family: 'Open Sans', sans-serif;
+  color: #636363;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+  margin: 0 0 30px 0;
+  background-color: #d0d0d0;
+}
+
+.hyperlink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hyperlink:hover {
+  color: #D32F2F;
+}
+
+.mini-bio h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #0188cb;
+  font-size: 250%;
+  margin: 30px auto;
+}
+
+.mini-bio p {
+  padding: 30px 0;
+}
+
+img.thinking {
+  width: 120px;
+  height: 120px;
+}
+
+/*___________________________________*/
+/*strengths*/
+
+.strengths {
+  background-color: white;
+  margin: auto;
+  display: block;
+  max-width: 1050px;
+  max-height: auto;
+  padding: 30px 0;
+}
+
+.strengths article {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: top;
+}
+
+.strengths h3 {
+  width: 175px;
+  height: 60px;
+  bottom: 40px;
+  padding: 50px 0;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;;
+}
+
+.strengths img {
+  padding: 20px 40px 20px 20px;
+  width: 110px;
+  height: 120px;
+}
+
+img.connectedness {
+  width: 95px;
+  height: 95px;
+}
+
+.strengths p {
+  color: #636363;
+  padding: 30px 30px 20px 0;
+  max-width: 600px;
+  height: 120px;
+  text-align: left;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+#restorative {
+  margin-bottom: 30px;
+}
+
+/*___________________________________*/
+/*mini-bio*/
+
+.hobbies {
+  font-family: 'Open Sans', sans-serif;
+  color: #1A1A1A;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+  background-color: #ffa100;
+}
+
+.hobbies h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-size: 250%;
+  margin: 30px auto;
+}
+
+.hobbies p {
+  padding: 30px 0;
+}
+
+img.travel {
+  width: 130px;
+  height: 130px;
+}
+
+img.camera {
+  width: 100px;
+  height: 100px;
+}
+
+.photo-hyperlink {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  margin: 0 0 30px 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #1A1A1A;
+}
+
+.photo-hyperlink:hover {
+  color: #ffffff;
+}
+
+/*______________________*/
+
+@media (max-width: 1030px) {
+  .container {
+    max-width: 1030px;
+  }
+  #tagline {
+    font-size: 50px;
+  }
+  .mini-bio {
+    font-size: 18px;
+    padding: 60px;
+    margin: 0px 0 30px 0;
+  }
+  .intention {
+    padding: 60px 30px;
+  }
+  .focus h3 {
+    padding: 20px;
+  }
+}
+/*__________________*/
+
+@media (max-width: 870px) {
+  .container {
+    max-width: 870px;
+  }
+  #tagline {
+    font-size: 40px;
+  }
+  .mini-bio {
+    padding: 60px;
+    margin: 0px 0 30px 0;
+  }
+  .intention {
+    padding: 60px 20px;
+  }
+  .intention p {
+    padding: 0px 10px 30px 10px;
+  }
+  .mini-bio {
+    padding: 20px;
+  }
+  .focus h3 {
+    padding: 10px;
+  }
+/*_________________*/
+
+  .strengths h3 {
+    padding: 60px 0 0 20px;
+  }
+  .strengths p {
+    display: block;
+    max-height: 150px;
+    padding: 0 20px 40px 20px;
+    margin: 20px auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    max-width: 770px;
+  }
+  #tagline {
+    font-size: 40px;
+  }
+  .strengths article {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: flex;
+    position: center;
+  }
+  .strengths img {
+    display: block;
+    margin: auto;
+    padding: 0px 0 0px 0;
+    margin: auto;
+  }
+  .strengths h3 {
+    padding: 0px 0 0 0px;
+    display: block;
+    margin: auto;
+  }
+  .strengths p {
+    display: block;
+    max-height: 150px;
+    padding: 0 0px 0px 0;
+    margin: 20px auto 40px auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: inherit;
+    background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;
+    background-size: cover;
+    max-width: 600px;
+  }
+  #tagline {
+    font-size: 30px;
+    /*margin: 30px 0 0 30px;*/
+    padding: 0;
+    display: block;
+  }
+
+@media (max-width: 570px) {
+  .mini-bio {
+    font-size: 14px;
+  }
+  .container {
+    /*display: inherit;*/
+    /*background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;*/
+    /*background-size: cover;*/
+    max-width: 570px;
+  }
+  #tagline {
+    font-size: 30px;
+  }
+  .intention {
+    padding: 60px 10px;
+  }
+  .strengths h3 {
+    margin: 0 auto;
+    padding: 0px 0 0 0px;
+  }
+  .strengths img {
+    padding: 0px 0 10px 0;
+    width: 95;
+    height: 105;
+  }
+  h3.languages {
+    font-size: 1.5em;
+    padding: 30px 0 0 0;
+  }
+  .container {
+    max-width: 550px;
+  }
+  .strengths p {
+    font-size: 12px;
+    margin: auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+  p.short-term, p.long-term, p.focus {
+    font-size: 12px;
+  }
+  section.intention, section.skills {
+    padding: 15px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 570px) {
+  .strengths img {
+    width: 80;
+    height: 90;
+  }
+  .strengths p {
+    margin: 0 15px 20px 15px;
+  }
+}

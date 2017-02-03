@@ -1,0 +1,41 @@
+/*________________________________________*/
+/*blog*/
+
+.blog-posts {
+  color: #636363;
+  line-height: 1.5;
+  text-align: center;
+  padding: 60px;
+  margin: auto;
+  background-color: #white;
+}
+
+/*.blog-posts h2 {
+  font-family: 'Exo', sans-serif;
+  color: yellow;
+  font-size: 2em;
+}*/
+
+.blog-posts h3 {
+  font-family: 'Oswald', sans-serif;
+  margin: auto;
+  padding: 0px 30px 30px 30px;
+  line-height: 2.5;
+  font-size: 250%;
+  color: purple;
+}
+
+.blog-posts img {
+  width: 300px;
+  height: 300px;
+  padding: 0 30px 30px 30px;
+  left: 0px;
+}
+
+.blog-posts p {
+
+  margin: auto;
+  padding: 0px 30px 60px 30px;
+  width: 750px;
+  text-align: left;
+}

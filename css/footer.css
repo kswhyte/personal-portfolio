@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url(../fonts/icomoon.eot);
+    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/icomoon.woff) format('woff'),
+    url(../fonts/icomoon.ttf) format('truetype'),
+    url(../fonts/icomoon.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+/*Footer*/
+.icon-github:before {
+  content: "\eab0";
+}
+
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1A1A1A;
+  height: 75px;
+}
+
+footer a {
+  color: white;
+  font-size: 2em;
+  left: 0;
+  position: relative;
+  align-content: center;
+  width: 100%;
+  text-decoration: none;
+  padding: 25%;
+}
+
+/*hover for social media icons:*/
+footer li:hover .icon-github {
+  color: #634E8B;
+}
+
+footer li:hover .icon-linkedin2 {
+  color: #1B86BC;
+}
+
+footer li:hover .icon-twitter {
+  color: #1DA1F2;
+}
+
+footer li:hover .icon-facebook {
+  color: #3B5998;
+}
+
+footer li:hover .icon-instagram {
+  color: #FF534A;
+}
+
+.copyright {
+  color: #9C9C9C;
+  font-size: 14px;
+  text-align: left;
+  float: left;
+  margin: -20px 30px;
+  display: inline-block;
+}
+
+.email {
+  color: #9C9C9C;
+  font-size: 14px;
+  text-align: right;
+  float: right;
+  margin: -20px 30px;
+  display: inline-block;
+}
+
+@media (max-width: 1030px) {
+  .icon-github:before {
+    content: "\eab0";
+  }
+
+  .icon-linkedin2:before {
+    content: "\eaca";
+  }
+
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+
+  footer {
+    padding: 10px;
+    height: 65px;
+  }
+
+  footer a {
+    font-size: 170%;
+    padding: 1px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 17px;
+  }
+
+  .copyright, .email {
+    font-size: 12px;
+    margin: -15px 30px;
+  }
+}
