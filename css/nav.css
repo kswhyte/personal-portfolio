@@ -27,6 +27,7 @@
   display: inline-block;
   margin: 7px 0 0 8px;
   border: none;
+  transition: all 3s ease-in-out;
 }
 
 #kw-icon:hover {
@@ -36,7 +37,6 @@
   width: 60px;
   border: none;
   -webkit-transform: rotate(360deg);
-  transition: all 3s ease-in-out;
   transition-timing-function: ease;
   transform: rotate(360deg) rotateY(0deg);
 }
@@ -95,6 +95,10 @@ li {
 
 .connect:hover {
   color: #36F5AF;
+}
+
+.active {
+  color: #f7443a;
 }
 
 @media (max-width: 1030px) {

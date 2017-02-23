@@ -2,13 +2,15 @@
 /*about*/
 
 .container {
+  /*height: 30%;*/
   height: 575px;
-  display: block;
+  /*display: block;*/
   background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  /*width: 100vh;*/
 }
 
 #tagline {

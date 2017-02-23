@@ -2,11 +2,16 @@
   background: url('../images/diagonal-mountain-fog.jpeg') no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  padding: 200px 0px;
+  /*padding: 200px 0px;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #kw-big-logo {
@@ -15,7 +20,11 @@
   height: 400px;
   width: 400px;
   text-indent: -9999px;
-  margin: auto;
+  /*margin: auto;*/
+  /*margin-top: 50%;*/
+  position: inherit;
+  /*top: 50%;*/
+  transition: all 3s ease-in-out;
 }
 
 #kw-big-logo:hover {
@@ -23,8 +32,6 @@
   background-size: 400px 400px;
   height: 400px;
   width: 400px;
-  /*-webkit-transform: rotate(0deg);*/
-  transition: all 3s ease-in-out;
   transform: rotate(360deg) rotateY(180deg);
   transition-timing-function: ease;
 }
