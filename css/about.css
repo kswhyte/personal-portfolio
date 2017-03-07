@@ -3,6 +3,7 @@
 
 .container {
   height: 575px;
+  display: block;
   background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
@@ -89,15 +90,25 @@ img.bee-hive {
   color: #eeeeee;
   line-height: 1.5;
   text-align: center;
-  padding: 60px;
+  padding: 30px;
   margin: auto;
   background-color: #0188cb;
+}
+
+p.intention-intro {
+  margin: auto;
+  padding-bottom: 0;
+  font-size: 18px;
+  /*padding: 30px;*/
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .intention h2 {
   font-family: 'Oswald', sans-serif;
   color: #1A1A1A;
   font-size: 250%;
+  margin-bottom: 30px;
 }
 
 .intention h3 {
@@ -109,27 +120,14 @@ img.bee-hive {
   color: yellow;
 }
 
-.intention p {
-  margin: auto;
-  padding: 0px 30px 30px 30px;
-  max-width: 770px;
-  display: block;
+p.focus {
+  margin: 30px;
 }
 
-img.ladder {
-  width: 120px;
-  height: 120px;
-  padding: 30px auto;
-  margin: 10px auto 0 auto;
-  left: 0;
-  position: center;
-  display: block;
-}
-
-.focus h3 {
+h3.focus {
   font-family: 'Dosis', sans-serif;
   margin: auto;
-  padding: 30px;
+  /*padding: 30px;*/
   line-height: 2.5;
   color: yellow;
 }
@@ -137,9 +135,9 @@ img.ladder {
 img.eye {
   width: 120px;
   height: 80px;
-  padding:  0px 30px 30px 30px;
+  padding:  0px 30px 0px 30px;
   margin: auto;
-  left: 0
+  left: 0;
   position: center;
   display: block;
 }
@@ -153,14 +151,14 @@ img.eye {
   line-height: 1.5;
   text-align: center;
   font-size: 18px;
-  padding: 30px;
-  margin: 0 0 30px 0;
-  background-color: #d0d0d0;
+  padding: 30px 30px 0 30px;
+  margin: 0 0 0 0;
+  background: linear-gradient(to bottom, #c0c0c0, rgba(0,0,0,0));
 }
 
 .hyperlink {
-  color: #ffffff;
-  text-decoration: none;
+  color: navy;
+  /*text-decoration: none;*/
 }
 
 .hyperlink:hover {
@@ -171,16 +169,23 @@ img.eye {
   font-family: 'Oswald', sans-serif;
   color: #0188cb;
   font-size: 250%;
-  margin: 30px auto;
+  /*margin: 30px auto;*/
 }
 
 .mini-bio p {
-  padding: 30px 0;
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 img.thinking {
   width: 120px;
   height: 120px;
+}
+
+p.interest-p {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /*___________________________________*/
@@ -198,7 +203,7 @@ img.thinking {
 .strengths article {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: space-between;
   vertical-align: top;
 }
 
@@ -260,6 +265,8 @@ img.connectedness {
 
 .hobbies p {
   padding: 30px 0;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 img.travel {
@@ -276,7 +283,7 @@ img.camera {
   font-family: 'Oswald', sans-serif;
   font-size: 26px;
   margin: 0 0 30px 0;
-  text-decoration: none;
+  /*text-decoration: none;*/
   list-style-type: none;
   color: #1A1A1A;
 }
@@ -297,7 +304,7 @@ img.camera {
   .mini-bio {
     font-size: 18px;
     padding: 60px;
-    margin: 0px 0 30px 0;
+    /*margin: 0px 0 0px 0;*/
   }
   .intention {
     padding: 60px 30px;

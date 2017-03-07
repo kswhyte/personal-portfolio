@@ -72,6 +72,13 @@ img {
   color: #54F7AE;
 }
 
+.mini-projects-title {
+  color: #f7443a;
+}
+
+.mini-projects-github {
+  font-size: 2em;
+}
 
 @media (max-width: 1030px) {
   .projects-list {
