@@ -297,6 +297,7 @@ img.camera {
 @media (max-width: 1030px) {
   .container {
     max-width: 1030px;
+    background-size: auto;
   }
   #tagline {
     font-size: 50px;
