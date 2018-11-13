@@ -1,1 +1,1 @@
-.document.querySelector('h1')
+documentQuerySelector('navbar-mobile').onClick('');

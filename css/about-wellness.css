@@ -1,0 +1,22 @@
+/*________________________________________*/
+/*about wellness*/
+
+.wellness-container {
+  height: 575px;
+  display: block;
+  background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg');
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wellness-tagline {
+  z-index: 1;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  display: flex;
+  font-size: 60px;
+  color: white;
+  line-height: 1.25;
+}

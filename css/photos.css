@@ -1,4 +1,4 @@
-section {
+.image-container {
   padding: .5vw;
   font-size: 0;
   display: -ms-flexbox;
@@ -10,7 +10,7 @@ section {
   display: flex;
 }
 
-section div {
+.image-container div {
   -webkit-box-flex: auto;
   -ms-flex: auto;
   flex: auto;
@@ -18,16 +18,16 @@ section div {
   margin: .5vw;
 }
 
-section div img {
+.image-container div img {
   width: 100%;
   height: auto;
 }
 
 @media screen and (max-width: 400px) {
-  section div {
+  .image-container div {
     margin: 0;
   }
-  section {
+  .image-container {
     padding: 0;
   }
 }

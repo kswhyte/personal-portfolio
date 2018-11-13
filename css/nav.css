@@ -56,6 +56,10 @@ header a {
   font-size: 165%;
 }
 
+/* .navbar-mobile {
+  display: none;
+} */
+
 h1 {
   display: inline-block;
   text-indent: -9999px;
@@ -74,31 +78,31 @@ li {
 }
 
 .projects:hover {
-  color: #faff00;
+  color: yellow;
 }
 
 .about:hover {
   color: #ad00ff;
 }
 
-.resume:hover {
-  color: #00B0EB;
+.connect:hover {
+  color: #0060FE;
 }
 
 .photos:hover {
-  color: #f7443a;
+  color: #FEB400;
 }
 
 .blog:hover {
-  color: #02B875;
+  color: #00FE60;
 }
 
-.connect:hover {
-  color: #36F5AF;
+.resume:hover {
+  color: #19B409;
 }
 
 .active {
-  color: #f7443a;
+  color: #FE0000;
 }
 
 @media (max-width: 1030px) {
@@ -119,7 +123,7 @@ li {
   }
 
   header a {
-    font-size: 155%;
+    font-size: 140%;
     padding: 1px;
   }
 
@@ -129,6 +133,8 @@ li {
   }
 }
 
-/*@media (max-width: 620px) {
-
-}*/
+@media (max-width: 700px) {
+  .navbar-full {
+    display: none;
+  }
+}

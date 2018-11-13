@@ -2,16 +2,16 @@
 .contact-container {
   font-family: 'Oswald', sans-serif;
   font-size: 26px;
-  background: url('../images/ocean-mist.jpeg') no-repeat center center fixed;
+  background: url('../images/mountain_dusting.jpg') no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  /*padding: 200px 0px;*/
+  padding: 40px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,10 +27,14 @@
   display: inline-block;
 }*/
 
-img.mail {
+.contact-container img {
+  margin-top: 40px;
+}
+
+.mail {
   color: white;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   display: inline-block;
 }
 
@@ -38,11 +42,11 @@ img.mail {
   color: #54F7AE;
 }
 
-img.phone {
+.phone {
   color: white;
   fill: currentColor;
-  height: 110px;
-  width: 110px;
+  height: 90px;
+  width: 90px;
   display: inline-block;
   margin-top: 100px;
 }
@@ -55,24 +59,24 @@ h2.contact-container {
   position: left;
 }
 
-/*img.healing-staff {
-  width: 120px;
-  height: 220px;
+.healing-staff {
+  width: 100px;
+  height: 200px;
   padding: 0 30px;
   margin: auto;
   left: 0;
   position: left;
   display: inline-block;
-}*/
+}
 
 .hyperlink {
   text-decoration: none;
   list-style-type: none;
-  color: #54F7AE;
+  color: white;
 }
 
 .hyperlink:hover {
-  color: white;
+  color: yellow;
 }
 
 .contact-container p {
