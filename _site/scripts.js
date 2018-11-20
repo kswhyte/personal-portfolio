@@ -1,0 +1,1 @@
+documentQuerySelector('navbar-mobile').onClick('');

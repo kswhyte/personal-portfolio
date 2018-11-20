@@ -1,0 +1,46 @@
+.about-container {
+  height: 575px;
+  /* background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg');
+  background-size: cover; */
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech-left, .health-right {
+  width: 300px;
+  height: 450px;
+  margin: 5vw;
+  border-radius: 10px;
+}
+
+.tech-left {
+  background: url('../images/technology-robot.jpg') no-repeat;
+  background-size: 300px 450px;
+}
+
+.health-right {
+  background: url('../images/buddha-statue.jpg') no-repeat;
+  background-size: 300px 450px;
+}
+
+.about-text {
+  color: white;
+  text-shadow: -1px 1px #444;
+  text-align: center;
+  margin: 200px auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  color: yellow;
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kinan Whyte | Projects</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Open+Sans|Oswald|Montserrat|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" ><h2 id="kw-icon">Kinan Whyte</h2></a>
+      <nav class="collapse navbar-collapse" id="my-navbar">
+        <ul class="nav navbar-nav">
+          <li><a class="projects active" href="projects.html">projects</a></li>
+          <li><a class="about" href="about.html">about</a></li>
+          <li><a class="connect" href="connect.html#">connect</a></li>
+          <li><a class="photos" href="photos.html">photos</a></li>
+          <li><a class="blog" href="https://medium.com/@iamkinansw" target="_blank">blog</a></li>
+          <li><a class="resume" href="https://resume.creddle.io/resume/j3d2ypjhbz7" target="_blank">resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+ <!-- _________________projects____________________ -->
+    <section class="projects-list">
+      <h2 class="projects-intro-title">Turing Projects</h2>
+      <p>
+        The following set of projects collectively exhibit my progression through Turing: School of Software and Design's Front-End Development program. In each project, I aimed to explore the front facing elements that make software interactive. As the program advanced, the meeting point of design and development became clearer, and skills at writing a blend of HTML, CSS, and Javascript began to bear fruits. From UX/UI principles to an expert understanding of the front-end toolkit, Turing has been essential to my evolution as a software developer and awareness of the critical part we play in modern engineering teams.
+      </p>
+
+      <h4>These projects aim to hone a professional craft in...</h4>
+      <section class='craft-intro-list'>
+        <h6>Fundamental Web Technologies</h6>
+        <h6>Web Development with JavaScript</h6>
+        <h6>Professional Client-Side Development</h6>
+        <h6>Desktop and Mobile Applications with Web Technologies</h6>
+      </section>
+
+      <article class="world-data-correlator">
+        <h3>World Data Correlator</h3>
+        <div><img class="world-data-correlator-image" src="./project-images/world-data-correlator.jpg" alt="productivity picture"/></div>
+        <p>
+          An application that provides an interactive clickable globe that can display data about countries and cities relative to travelers.
+          Once a user clicks on a country, they are able to view essential information from the CIA World Factbook and NomadList.
+          <br><br>
+          FRONT-END: D3.js, Vanilla Javascript, jQuery, SASS<br>
+          BACK-END: Ruby on Rails, POSTGRESQL<br>
+          TESTING: Capybara, Selenium, Rspec
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/self-directed-project.html" class="world-data-correlator-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/vidoseaver/correlator" class="world-data-correlator-github" target="_blank">Codebase</a></h5>
+          <h5><a href="http://corre1ator.herokuapp.com/" class="world-data-correlator-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="dockjs">
+        <h3>DockJS</h3>
+        <div><img class="dockjs-image" src="./project-images/dockjs.jpg" alt="productivity picture"/></div>
+        <p>
+          In this project, we designed an interpretation of a traditional desktop application using Electron, specifically a JavaScript REPL interface that fully functions offline and can be accessed in the dock in multiple platforms.
+          To accomodate for recent additions to the JavaScript libray with ES6/ES7, a user can to upload code in vanilla JS that could be transpiled into ES6 and vice versa.
+          <br><br>
+          FRONT-END: Electron, Vanilla Javascript, jQuery, CSS<br>
+          TESTING: Chai, Mocha, Spectron
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/imposter-syndrome.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/rcwestlake/dockjs" class="dockjs-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://medium.com/@iamkinansw/an-intro-to-electron-97fad3973951#.r3ojbv813" class="dockjs-github" target="_blank">Blog Post: A High Level View of Electron</a></h5>
+          <h5><a href="https://medium.com/@iamkinansw/postmortem-of-an-electron-app-67c4493aa50d#.a8411669b" class="dockjs-github" target="_blank">Postmortem of an Electron App</a></h5>
+        </section>
+      </article>
+
+      <article class="pollr">
+        <h3>Pollr</h3>
+        <div><img class="pollr-image" src="./project-images/pollr.jpg" alt="productivity picture"/></div>
+        <p>
+          The chief aim of this project was to explore client-side security with Auth0 and build a real-time application with communications to WebSockets.
+          A user will come to the web app to create a poll/question for whatever audience of choice using 4 options/answers to go with it. Then a user’s Github image will act as a marker to indicate when they have selected a poll option.
+          All poll option selections update in real-time, and the poll 'admin' is able to specify an ending date and time.
+          <br><br>
+          FRONT-END: Vanilla Javascript, jQuery, CSS, Auth0<br>
+          BACK-END: Node.js, Express, WebsocketIO<br>
+          TESTING: Mocha, Chai
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/real-time.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/real-time" class="pollr-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://poll-bui1der.herokuapp.com/polls" class="weather-tracker-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="weather-tracker">
+        <h3>Weather Forecast</h3>
+        <div><img class="weather-tracker-image" src="./project-images/weather-tracker.jpg" alt="productivity picture"/></div>
+        <p>
+          One of the main goals of this app included retrieving and displaying forecast data from an API.
+          A user is able to fetch weather from a user's current city, or given zipcode or city name and save “pinned” or favorite cities in order to display multiple extended weather forecasts at ease.
+          When running this app, it is necessary to allow your browser to load "unsafe scripts" in order to render fresh weather information.
+          <br><br>
+          FRONT-END: React, Redux, SASS<br>
+          BACK-END: Geolocation and OpenWeatherMap APIs<br>
+          TESTING: Enzyme
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/weather-forecast.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/weather-tracker" class="weather-tracker-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/weather-tracker" class="weather-tracker-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="jet-fuel">
+        <h3>Jet Fuel</h3>
+        <div><img class="jet-fuel-image" src="./project-images/jet-fuel.jpg" alt="productivity picture"/></div>
+        <p>
+          The main aim of this project was to create a URL shortener service.
+          This application allows users to create folders (like bookmark folders) to store long, ugly URLs as shortened URLs through our service.
+          The main goal of this application was to redirect a request at the shortened URL to a user's long URL equivalent. Each shortened URL is belong to a unique folder which is capable of storing "n" URLs.
+          The secondary goal was to track URL usage and provide popularity statistics.
+          <br><br>
+          FRONT-END: ReactJS, CSS<br>
+          BACK-END: Node.js, Express<br>
+          TESTING: Mocha, Chai
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/jet-fuel.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/hilarylewis92/jetFuel" class="jet-fuel-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://jetfuelshortener.herokuapp.com/" class="weather-tracker-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="birds-eye-community">
+        <h3>Bird's Eye Community</h3>
+        <div><img class="birds-eye-community-image" src="./project-images/birds-eye-community.jpg" alt="productivity picture"/></div>
+        <p>
+          This app is a SLACK-like app for communicating to your family, roommates, or a community over different channels to keep important topics separated so that nothing gets lost in the fray.
+          It is a one-stop shop for taking care of communicating needs, issues, and other related home-life needs--all centered around the roof you live under.
+          <br><br>
+          FRONT-END: ReactJS, CSS<br>
+          BACK-END: Firebase<br>
+          TESTING: Enzyme
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/capstone.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/birds-eye-community" class="birds-eye-community-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://birdseyecommunity.firebaseapp.com/" class="weather-tracker-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="nimble-network">
+        <h3>Nimble Network</h3>
+        <div><img class="nimble-network-image" src="./project-images/nimble-network.jpg" alt="productivity picture"/></div>
+        <p>
+          Planning, design, and overall user experience of the application are highlighted in this app.
+          As a capstone project, we chose to create a contactlist for users to house information of potential employers, clients, or whatever category of connections desired.
+          Networking is a critical skill, so we built an app to help you organize all of your contacts.
+          <br><br>
+          FRONT-END: ReactJS, SASS<br>
+          BACK-END: Firebase<br>
+          TESTING: Enzyme
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/fire-bae.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/nimble-network" class="nimble-network-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://nimblenetwork-d13c3.firebaseapp.com/" class="nimble-network-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="remEMBER">
+        <h3>remEMBER</h3>
+        <div><img class="remEMBER-image" src="./project-images/remEMBER.jpg" alt="productivity picture"/></div>
+        <p>
+          A notepad-like app in Ember with full CRUD functionality.
+          Aside from learning a new JS framework, this project was largely focused on dialing development git workflow, ensuring a smooth process of communicating what new features are made or worked on in all future projects.
+          We learned how real projects are managed and saw which methods of working through issues and features works most seamlessly.
+          <br><br>
+          FRONT/BACK-END: Ember, CSS<br>
+          TESTING: Ember Q-Unit
+        </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/remember.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/remEMBER" class="remEMBER-github" target="_blank">Codebase</a></h5>
+        </section>
+      </article>
+
+      <article class="shoot-the-breeze">
+        <h3>Shoot the Breeze</h3>
+        <div><img class="shoot-the-breeze-image" src="./project-images/shoot-the-breeze.jpeg" alt="productivity picture"/></div>
+          <p>
+            In this project we set out to build a chat-box style app in which users could shoot the breeze with each other.
+            Within each users account, upon sign-in, up to 100 messages and a list of online users can be viewed.
+            Users are able to filter through messages by message content, username, and date/time.
+            <br><br>
+            FRONT-END: ReactJS, SASS<br>
+            BACK-END: Firebase<br>
+            TESTING: Enzyme
+          </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/shoot-the-breeze.html" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/shoot-the-breeze" class="shoot-the-breeze-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://shoot-the-breeze-b2fe6.firebaseapp.com/" class="shoot-the-breeze-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="game-time">
+        <h3>Game Time</h3>
+        <div><img class="game-time-image" src="./project-images/game-time.jpg" alt="papaya leaf"/></div>
+        <p>
+          This game is called Papaya Whipper, a new take on the classic Breakout arcade game. Its name carries on the legacy of building games as tributes to the finest of CSS color names.
+          Papaya Whipper is our humble tribute to one of the most sensible, attractive, and even delicious colors humankind has ever created - Papaya Whip.
+          Play your way through increasingly difficult stages for a chance to earn a special hidden reward!
+          <br><br>
+          FRONT-END: Vanilla Javascript, jQuery, HTML5 Canvas, CSS<br>
+          BACK-END: <br>
+          TESTING: Mocha, Chai.
+        </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/game-time.md" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/game-time" class="game-time-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/game-time/" class="game-time-live-HL" target="_blank">Play the Live Game</a></h5>
+        </section>
+      </article>
+
+      <article class="idea-box">
+        <h3>Idea Box</h3>
+        <div><img class="idea-box-image" src="./project-images/idea-box.jpg" alt="light-bulb"/></div>
+        <p>
+          This is a simple application for recording and archiving ideas (good and bad alike) in a fluid and responsive client-side interface.
+          This app features snappy filtering in the browser localStorage to persist our wonderful ideas between sessions.
+          <br><br>
+          FRONT-END: Vanilla Javascript, jQuery, CSS<br>
+          BACK-END: localStorage<br>
+          TESTING: Mocha, Chai
+        </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/ideabox.md" class="idea-box-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/idea-box" class="idea-box-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/idea-box/" class="idea-box-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="todo-list">
+        <h3>ToDo List</h3>
+        <div><img class="todo-list-image" src="./project-images/todo-list.jpg" alt="productivity picture"/></div>
+          <p>
+            At the start to this project, we inherited someone’s previous ideaBox and pivoted it over to a '2DoBox'.
+            The idea behind 2DoList was to take the code base from one person's repository and pivot: Re-create this app with added features.
+            We kept accessibility in mind here, as this project was largely graded on how accessible the users felt the UI was.
+            <br><br>
+            FRONT-END: Vanilla Javascript, jQuery, CSS<br>
+            TESTING: Selenium Webdriver
+          </p>
+        <section class="links">
+          <h5><a href="http://frontend.turing.io/projects/2DoBox-Pivot" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/2DoBox-Pivot" class="todo-list-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/2DoBox-Pivot/" class="todo-list-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="mini-projects">
+        <h3 class="mini-projects-title">Mini-Projects</h3>
+        <div><img class="mini-projects-image" src="./project-images/mini-projects.jpg" alt="productivity picture"/></div>
+          <p>
+            This section consists of smaller apps that represent a culmination of fundamental skills used to bring basic ideas to full-functionality in minimal time.
+          </p>
+        <section class="links">
+          <h5><a href="mini-projects.html" class="mini-projects-github" target="_blank">Visit Mini Projects</a></h5>
+        </section>
+      </article>
+    </section>
+  </body>
+
+  <!-- __________________footer_________________________ -->
+  <footer>
+    <ul>
+      <li><a href="https://github.com/kswhyte" target="_blank"><i class="icon-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/kswhyte" target="_blank"><i class="icon-linkedin2"></i></a></li>
+      <li><a href="https://twitter.com/iamkinansw" target="_blank"><i class="icon-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/kswhyte" target="_blank"><i class="icon-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/kinanswhyte/" target="_blank"><i class="icon-instagram"></i></a></li>
+    </ul>
+    <p class="copyright">
+      &#169; Kinan Whyte
+    </p>
+    <p class="email">
+      kinanwhyte@gmail.com
+    </p>
+  </footer>
+</html>

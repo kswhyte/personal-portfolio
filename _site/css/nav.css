@@ -1,0 +1,140 @@
+/*.dropdown {
+  background-color: #1A1A1A;
+  visibility: hidden;
+}
+
+#drop-down-icon {
+  background: url("../SGV-Icons/owl.svg") no-repeat;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  outline: 1px solid red;
+  display: inline-block;
+  margin: 7px 8px 0 8px;
+  z-index: 1;
+}
+
+.drop-down-content {
+  visibility: hidden;
+}*/
+
+#kw-icon {
+  background: url("../images/kw-logo-gradient.png") no-repeat;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  text-indent: -9999px;
+  display: inline-block;
+  margin: 7px 0 0 8px;
+  border: none;
+  transition: all 3s ease-in-out;
+}
+
+#kw-icon:hover {
+  background: url("../images/kw-logo-white.png") no-repeat;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  border: none;
+  -webkit-transform: rotate(360deg);
+  transition-timing-function: ease;
+  transform: rotate(360deg) rotateY(0deg);
+}
+
+header {
+  font-family: 'Dosis', sans-serif;
+  padding: 19px;
+  background-color: #1A1A1A;
+  height: 75px;
+}
+
+header a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #eeeeee;
+  padding: 1.5px;
+  font-size: 165%;
+}
+
+/* .navbar-mobile {
+  display: none;
+} */
+
+h1 {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 10px;
+  margin: 10px;
+  padding: 21.5px;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.projects:hover {
+  color: yellow;
+}
+
+.about:hover {
+  color: #ad00ff;
+}
+
+.connect:hover {
+  color: #0060FE;
+}
+
+.photos:hover {
+  color: #FEB400;
+}
+
+.blog:hover {
+  color: #00FE60;
+}
+
+.resume:hover {
+  color: #19B409;
+}
+
+.active {
+  color: #FE0000;
+}
+
+@media (max-width: 1030px) {
+  #kw-icon {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+  }
+  #kw-icon:hover {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+  }
+
+  header {
+    padding: 10px;
+    height: 65px;
+  }
+
+  header a {
+    font-size: 140%;
+    padding: 1px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 17px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-full {
+    display: none;
+  }
+}

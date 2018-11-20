@@ -1,0 +1,87 @@
+#hero {
+  background: url('../images/diagonal-mountain-fog.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kw-big-logo {
+  background: url("../images/kw-logo-white.png") no-repeat;
+  background-size: 400px 400px;
+  height: 400px;
+  width: 400px;
+  text-indent: -9999px;
+  /*margin: auto;*/
+  /*margin-top: 50%;*/
+  position: inherit;
+  /*top: 50%;*/
+  transition: all 3s ease-in-out;
+}
+
+#kw-big-logo:hover {
+  background: url("../images/kw-logo-gradient.png") no-repeat;
+  background-size: 400px 400px;
+  height: 400px;
+  width: 400px;
+  transform: rotate(360deg) rotateY(180deg);
+  transition-timing-function: ease;
+}
+
+@media (max-width: 1030px) {
+  #kw-big-logo {
+    background-size: 350px 350px;
+    height: 350px;
+    width: 350px;
+  }
+  #kw-big-logo:hover {
+    background-size: 350px 350px;
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 730px) {
+  #kw-big-logo {
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+  }
+  #kw-big-logo:hover {
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 530px) {
+  #kw-big-logo {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+  #kw-big-logo:hover {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+
+@media (max-width: 330px) {
+  #kw-big-logo {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+  }
+  #kw-big-logo:hover {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+  }
+}
