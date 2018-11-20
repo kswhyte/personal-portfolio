@@ -1,11 +1,11 @@
 /*________________________________________*/
 /*about wellness*/
 
-.wellness-container {
+.about-wellness-container {
   height: 575px;
   display: block;
-  background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg');
-  /* background-size: cover; */
+  background: url('../images/sunset-ripple.jpg');
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,4 +19,13 @@
   font-size: 60px;
   color: white;
   line-height: 1.25;
+}
+
+.about-wellness-container h2 {
+  color: white;
+  text-shadow: -1px 1px #444;
+  text-align: center;
+  margin: 200px auto;
+  font-size: 30px;
+  font-weight: bold;
 }
