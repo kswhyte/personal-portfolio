@@ -4,8 +4,8 @@
   font-size: 26px;
   background: url('../images/mountain_dusting.jpg') no-repeat center center fixed;
   background-size: cover;
-  text-align: center;
   padding: 40px 0px;
+  text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,8 +33,8 @@
 
 .mail {
   color: white;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   display: inline-block;
 }
 
@@ -45,8 +45,8 @@
 .phone {
   color: white;
   fill: currentColor;
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   display: inline-block;
   margin-top: 100px;
 }
@@ -60,8 +60,8 @@ h2.contact-container {
 }
 
 .healing-staff {
-  width: 100px;
-  height: 200px;
+  width: 70px;
+  height: 120px;
   padding: 0 30px;
   margin: auto;
   left: 0;
@@ -69,7 +69,7 @@ h2.contact-container {
   display: inline-block;
 }
 
-.hyperlink {
+.contact-container a {
   text-decoration: none;
   list-style-type: none;
   color: white;
