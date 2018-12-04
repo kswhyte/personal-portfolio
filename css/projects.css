@@ -42,6 +42,10 @@ img {
   margin: 0 auto 30px auto;
 }
 
+.healthgrades-image:hover {
+  /* content: url('http://dummyimage.com/100x100/eb00eb/fff'); */
+}
+
 .projects-list p {
   margin: 0 auto 30px auto;
   /*padding: 0px 30px 30px 30px;*/
