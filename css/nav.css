@@ -77,8 +77,12 @@ li {
   padding: 20px;
 }
 
-.dev-projects:hover {
+.projects:hover {
   color: yellow;
+}
+
+.one-up:hover {
+  color: turquoise;
 }
 
 .about:hover {

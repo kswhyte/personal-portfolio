@@ -1,4 +1,38 @@
-.projects-list {
+.one-up-container {
+  position: relative;
+  height: 575px;
+  /* background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg'); */
+  /* background-size: cover; */
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.one-up-banner {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  margin: 0;
+  /* background-size: cover; */
+  /* position: absolute; */
+}
+
+#one-up-skills {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  display: flex;
+  font-size: 60px;
+  color: white;
+  line-height: 1.25;
+  z-index: 1;
+  position: absolute;
+}
+
+.one-up-projects {
   color: #aaaaaa;
   line-height: 1.5;
   text-align: center;
@@ -9,51 +43,19 @@
   align-items: center;
 }
 
-.projects-list h2 {
+.one-up-projects h2 {
   font-family: 'Oswald', sans-serif;
   color: #f7443a;
   font-size: 2.5em;
-  margin: 45px 15px 30px 15px;
+  /* margin: 45px 15px 30px 15px; */
 }
 
-.projects-list h3 {
+.one-up-projects h3 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.75em;
   margin: 10px auto 10px auto;
   padding: 15px;
   color: yellow;
-}
-
-.projects-list h4 {
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.75em;
-  color: white;
-  padding-bottom: 10px;
-}
-
-img {
-  border-radius: 10px;
-  width: 500px;
-  height: 300px;
-  margin: 0 auto 30px auto;
-}
-
-.healthgrades-image:hover {
-  /* content: url('http://dummyimage.com/100x100/eb00eb/fff'); */
-}
-
-.projects-list p {
-  margin: 0 auto 30px auto;
-  /*padding: 0px 30px 30px 30px;*/
-  max-width: 750px;
-  font-size: 16px;
-}
-
-.craft-intro-list {
-  display: flex;
-  flex-direction: column;
-  color: #fbc44a;
-  margin: 0 0 30px 0;
 }
 
 .links h5 a {
@@ -72,16 +74,15 @@ img {
   color: #54F7AE;
 }
 
-.mini-projects-title {
-  color: #f7443a;
-}
-
-.mini-projects-github {
-  font-size: 2em;
+img {
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto 30px auto;
 }
 
 @media (max-width: 1030px) {
-  .projects-list {
+  .one-up-projects {
     padding: 60px 15px;
   }
 }
@@ -93,10 +94,10 @@ img {
     text-decoration: none;
     color: white;
   }
-  .projects-list h2 {
+  .one-up-projects h2 {
     font-size: 210%;
   }
-  .projects-list h3 {
+  .one-up-projects h3 {
     font-size: 210%;
   }
   .projects-list h4 {
@@ -117,6 +118,10 @@ img {
     height: 300px;
     /*padding: 0 30px 30px 30px;*/
   }
+  .one-up-banner {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 400) {
@@ -126,19 +131,19 @@ img {
     text-decoration: none;
     color: white;
   }
-  .projects-list h2 {
+  .one-up-projects h2 {
     font-size: 1.75em;
   }
-  .projects-list h3 {
+  .one-up-projects h3 {
     font-size: 1.75em;
   }
-  .projects-list h4 {
+  .one-up-projects h4 {
     font-size: 1.3em;
   }
   .links h5 a {
     font-size: 16px;
   }
-  .projects-list p {
+  .one-up-projects p {
     font-size: 12px;
   }
 }
